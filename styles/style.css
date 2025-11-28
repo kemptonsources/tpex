@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+header {
+    background-color: #E5C687;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 100px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav a {
+    text-align: center;
+    padding: 35px;
+    font-family: "Alike Angular","Roboto Flex",Arial;
+    font-size: 1.4em;
+}
+nav a:hover {
+    background-color: #BCB382;
+}
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+#page {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#mainpimg {
+    width: 100%;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+img {
+aspect-ratio: 1/1;
+object-fit: cover;
+}
+
+#buttonspotp1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.buttimg {
+    border: 5px solid #3F6C51;
+    
+}
+.button{
+    background-color:#3F6C51;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.button:hover {
+    background-color: #BCB382;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.footertex {
+  font-size: 1.3em;  
+}
+
+
+footer{
+     font-size: 1.2em;
+   
+    margin: 0 auto;
+ 
+    background-color: #E5C687;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer a:hover {
+    background-color: #BCB382;
+}
