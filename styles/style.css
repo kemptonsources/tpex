@@ -5,6 +5,11 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
 nav {
     display: flex;
     justify-content: space-around;
