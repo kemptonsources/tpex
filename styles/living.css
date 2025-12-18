@@ -52,6 +52,7 @@ p {
     text-align: center;
     font-family: "Roboto Flex",Arial, Helvetica;
     font-size: 1.2em;
+    line-height: 80px; 
 }
 .explanations {
     display: grid;
